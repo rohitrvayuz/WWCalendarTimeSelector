@@ -900,7 +900,7 @@ open class WWCalendarTimeSelector: UIViewController, UITableViewDelegate, UITabl
     }
     
     @objc internal func didRotateOrNot(animated: Bool = true) {
-        
+        //
         let orientation = UIApplication.shared.orientation
         if orientation == .landscapeLeft || orientation == .landscapeRight || orientation == .portrait || orientation == .portraitUpsideDown {
             let isPortrait = orientation == .portrait || orientation == .portraitUpsideDown
